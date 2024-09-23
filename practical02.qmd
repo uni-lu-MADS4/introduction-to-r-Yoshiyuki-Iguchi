@@ -1,6 +1,6 @@
 ---
 title: "Getting started with R"
-author: Your name here
+author: Yoshiyuki Iguchi
 date: today
 format: html
 ---
