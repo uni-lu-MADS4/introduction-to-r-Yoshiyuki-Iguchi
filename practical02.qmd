@@ -158,7 +158,27 @@ f_v("17","20")
 ```{r}
 # Your answer in code
 
+#mean
+f_mean <- function(a){
+  
+  return(mean(a))
+}
 
+f_mean(c(13,17))
+
+#median
+f_median <- function(b){
+  return(median(b))
+}
+
+f_median(c(9,3,7,5))
+
+#standard deviation
+f_standard_deviation <- function(c){
+  return(sd(c))
+}
+
+f_standard_deviation(c(1.1,3.7,8.9))
 
 ```
 
@@ -169,8 +189,11 @@ The output of `c('1' , "a", NA, "2", NA)` should be 2.
 
 ```{r}
 # Your answer in code
+library(magrittr)
 
-
+c('1' , "a", NA, "2", NA) %>% 
+  is.na () %>%
+  sum()
 
 ```
 
